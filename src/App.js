@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './component/Navbar';
+import Meme from './component/Meme';
+import Counter from './component/Counter';
+import Form from './component/Form';
+import Singup from './component/singup';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      {/* <Navbar/>
+      <Meme/> */}
+      {/* <Counter />
+
+      <Form /> */}
+
+      <Singup/>
+
     </div>
   );
 }
