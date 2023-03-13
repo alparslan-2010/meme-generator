@@ -45,13 +45,13 @@ function Singup() {
 
         if (password === paswordConfirm) {
 
-            alert("successfult");
+            alert("successfuly");
 
         }
 
         else {
 
-            alert("tekrar dene");
+            alert("parola eslesmedi");
         }
 
     }
